@@ -13,6 +13,7 @@
 		77EA4CA425EF27EE00CCFC9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EA4CA225EF27EE00CCFC9E /* Main.storyboard */; };
 		77EA4CA625EF27F000CCFC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EA4CA525EF27F000CCFC9E /* Assets.xcassets */; };
 		77EA4CA925EF27F000CCFC9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EA4CA725EF27F000CCFC9E /* LaunchScreen.storyboard */; };
+		77EA4CB325EF2DAD00CCFC9E /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EA4CB225EF2DAD00CCFC9E /* UserRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77EA4CA525EF27F000CCFC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77EA4CA825EF27F000CCFC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77EA4CAA25EF27F000CCFC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EA4CB225EF2DAD00CCFC9E /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		77EA4C9B25EF27EE00CCFC9E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				77EA4CB125EF2D9100CCFC9E /* Repository */,
 				77EA4C9C25EF27EE00CCFC9E /* AppDelegate.swift */,
 				77EA4C9E25EF27EE00CCFC9E /* SceneDelegate.swift */,
 				77EA4CA025EF27EE00CCFC9E /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				77EA4CAA25EF27F000CCFC9E /* Info.plist */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		77EA4CB125EF2D9100CCFC9E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				77EA4CB225EF2DAD00CCFC9E /* UserRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				77EA4CA125EF27EE00CCFC9E /* ViewController.swift in Sources */,
 				77EA4C9D25EF27EE00CCFC9E /* AppDelegate.swift in Sources */,
+				77EA4CB325EF2DAD00CCFC9E /* UserRepository.swift in Sources */,
 				77EA4C9F25EF27EE00CCFC9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
